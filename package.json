@@ -1,0 +1,20 @@
+{
+  "name": "omni-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "clean": "rm -r build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Clavier",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "html-minifier": "^4.0.0",
+    "postcss": "^7.0.32",
+    "sharp": "^0.25.4",
+    "uglifycss": "0.0.29"
+  }
+}
